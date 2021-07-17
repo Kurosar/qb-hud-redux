@@ -12,12 +12,12 @@ Make sure to add  the following line to your **server.cfg** (lines 14 > 20)
 > Ensure qb-hud-redux
 
 ## Features
-• Health, Armor, Bleeding, Lungs, Stamina, Voice (Activity+Distance, compatible with PMA-Voice)
-• Current time, money on your person, current ID, current street name and direction
-• Blinking alerts when values are low, you can edit this in **html\js\app.js**
-• Vehicle hud with speed, seatbelt and cruise indicators
-• Low tick/ms usage
-• Fully ready for the QB-Core Framework
+• Health, Armor, Bleeding, Lungs, Stamina, Voice (Activity+Distance, compatible with PMA-Voice and rp-radio/qb-radio)  
+• Current time, money on your person, current ID, current street name and direction  
+• Blinking alerts when values are low, you can edit this in **html\js\app.js**  
+• Vehicle hud with speed, seatbelt and cruise indicators  
+• Low tick/ms usage  
+• Fully ready for the QB-Core Framework  
 
 ## Media
 Main HUD (on foot) :  
