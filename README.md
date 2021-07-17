@@ -36,9 +36,9 @@ https://streamable.com/2g0o67
 
 **Question :** How do I switch from KM/H to MP/H ?  
 **Answer :** You have to edit config.lua and change the line following lines :   
-> QBHud.MPH = false to QBHud.MPH = true
-> QBHud.ejectVelocity = (60 / 3.6) to QBHud.ejectVelocity = (60 / 2.236936)
-> QBHud.unknownEjectVelocity = (70 / 3.6) to QBHud.unknownEjectVelocity = (70 / 2.236936)
+> QBHud.MPH = false to QBHud.MPH = true  
+> QBHud.ejectVelocity = (60 / 3.6) to QBHud.ejectVelocity = (60 / 2.236936)  
+> QBHud.unknownEjectVelocity = (70 / 3.6) to QBHud.unknownEjectVelocity = (70 / 2.236936)  
 
 **Question :** How do I enable the seatbelt sounds ?  
 **Answer :** You have to download **[interact-sound](https://cdn.discordapp.com/attachments/831653036148654101/862145450865459200/interact-sound.zip)** and install it to your **resources/** folder.  
