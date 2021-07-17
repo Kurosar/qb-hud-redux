@@ -35,7 +35,7 @@ https://streamable.com/2g0o67
 **Answer :** Make sure you change the line **72** of **main.lua** to reflect the name of the radio script you use (By default "rp-radio"), for example, if you use qb-radio, juste replace by "qb-radio".  
 
 **Question :** How do I switch from KM/H to MP/H ?  
-**Answer :** You have to edit config.lua and change the line following lines :   
+**Answer :** You have to edit config.lua and change the following lines :   
 > QBHud.MPH = false to QBHud.MPH = true  
 > QBHud.ejectVelocity = (60 / 3.6) to QBHud.ejectVelocity = (60 / 2.236936)  
 > QBHud.unknownEjectVelocity = (70 / 3.6) to QBHud.unknownEjectVelocity = (70 / 2.236936)  
