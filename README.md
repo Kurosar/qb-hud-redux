@@ -14,7 +14,7 @@ Make sure to add  the following line to your **server.cfg** (lines 14 > 20)
 ## Features
 • Health, Armor, Bleeding, Lungs, Stamina, Voice (Activity+Distance, compatible with PMA-Voice)
 • Current time, money on your person, current ID, current street name and direction
-• Blinking alerts when values are low, you can edit this in html\js\app.js
+• Blinking alerts when values are low, you can edit this in **html\js\app.js**
 • Vehicle hud with speed, seatbelt and cruise indicators
 • Low tick/ms usage
 • Fully ready for the QB-Core Framework
@@ -45,3 +45,6 @@ https://streamable.com/2g0o67
 
 **Question :** Are you going to add Nitrous ?  
 **Answer :** We decided to not include nitrous for now, maybe at a later point (or if someone wants to make a PR).  
+
+**Question :** My voice indicator does not indicate the voice range properly, how to fix it ?
+**Answer :** You probably changed your default PMA-Voice ranges, please reflect those changes in **html/js/app.js** (lines 215 > 225)
