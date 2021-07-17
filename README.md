@@ -32,19 +32,23 @@ https://streamable.com/2g0o67
 
 ## FAQ
 **Question:** My hud is not working  
-**Answer :** Make sure you change the line **72** of **main.lua** to reflect the name of the radio script you use (By default "rp-radio"), for example, if you use qb-radio, juste replace by "qb-radio".  
+**Answer:** Make sure you change the line **72** of **main.lua** to reflect the name of the radio script you use (By default "rp-radio"), for example, if you use qb-radio, juste replace by "qb-radio".  
 
-**Question :** How do I switch from KM/H to MP/H ?  
-**Answer :** You have to edit config.lua and change the following lines :   
+**Question:** How do I switch from KM/H to MP/H ?  
+**Answer:** You have to edit config.lua and change the following lines :   
 > QBHud.MPH = false to QBHud.MPH = true  
 > QBHud.ejectVelocity = (60 / 3.6) to QBHud.ejectVelocity = (60 / 2.236936)  
 > QBHud.unknownEjectVelocity = (70 / 3.6) to QBHud.unknownEjectVelocity = (70 / 2.236936)  
 
-**Question :** How do I enable the seatbelt sounds ?  
-**Answer :** You have to download **[interact-sound](https://cdn.discordapp.com/attachments/831653036148654101/862145450865459200/interact-sound.zip)** and install it to your **resources/** folder.  
+**Question:** How do I enable the seatbelt sounds ?  
+**Answer:** You have to download **[interact-sound](https://cdn.discordapp.com/attachments/831653036148654101/862145450865459200/interact-sound.zip)** and install it to your **resources/** folder.  
 
-**Question :** Are you going to add Nitrous ?  
-**Answer :** We decided to not include nitrous for now, maybe at a later point (or if someone wants to make a PR).  
+**Question:** Are you going to add Nitrous ?  
+**Answer:** We decided to not include nitrous for now, maybe at a later point (or if someone wants to make a PR).  
 
-**Question :** My voice indicator does not indicate the voice range properly, how to fix it ?  
-**Answer :** You probably changed your default PMA-Voice ranges, please reflect those changes in **html/js/app.js** (lines 215 > 225)  
+**Question:** My voice indicator does not indicate the voice range properly, how to fix it ?  
+**Answer:** You probably changed your default PMA-Voice ranges, please reflect those changes in **html/js/app.js** (lines 215 > 225)  
+
+**Question:** The cruise feature is not working as intended, how to fix it ?  
+**Answer:** If you are using **qb-smallresources** you have to edit **qb-smallresources/fxmanifest.lua** and comment the 'client/cruise.lua' line.  
+![image](https://user-images.githubusercontent.com/4887819/126051690-67598943-7a55-4108-bb23-117dea32876c.png)
