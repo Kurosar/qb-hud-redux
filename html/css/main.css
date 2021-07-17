@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+html {
+    overflow: hidden;
+	/*background: #111111;*/
+}
+
+p {
+    margin: 0 !important;
+}
+
+.ui-container {
+    overflow:hidden;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.health, .armor {
+    border: 0px solid rgba(77, 77, 77, 0.75);
+    background: rgba(0, 0, 0, 0.6);
+    height: 1.5vh;
+    bottom: 2.5vh;
+    width: 7vw;
+}
+
+.health {
+    position: absolute;
+    left: 1.5vw;
+    padding: 0;
+    float: left;
+}
+
+.armor {
+    position: absolute;
+    left: 8.7vw;
+    padding: 0;
+    float: left;
+}
+
+.healthBar, .armorBar, .healthBarInfo, .armorBarInfo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.healthBar {
+    background: #25D366;
+}
+
+.armorBar {
+    background: #1877F2;
+}
+
+.hunger, .thirst, .bleeding, .oxygen, .stamina, .voice {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    border: 0px solid rgba(77, 77, 77, 0.75);
+    bottom: 0vh;
+    width: 2.2vw;
+    height: 2.3vh;
+    padding: 0;
+    float:left;
+}
+
+.hunger {
+    left: 1.5vw;
+}
+
+.thirst {
+    left: 3.9vw;
+}
+
+.bleeding {
+    left: 6.3vw;
+}
+
+.oxygen {
+    left: 8.7vw;
+}
+
+.stamina {
+    left: 11.1vw;
+}
+
+.voice {
+    left: 13.5vw;
+}
+
+
+
+.hungerBar, .thirstBar, .bleedingBar, .oxygenBar, .staminaBar, .voiceBar, .hungerBarIcon, .thirstBarIcon, .bleedingBarIcon, .oxygenBarIcon, .staminaBarIcon, .voiceBarIcon {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.hungerBar {
+    background: #FF5700;
+} 
+
+.thirstBar {
+    background: #1AB7EA;
+}
+
+.bleedingBar {
+    background: #B92B27;
+}
+
+.oxygenBar {
+    background: #ECF0F1;
+}
+
+.staminaBar {
+    background: #8E44AD;
+}
+
+.voiceBar {
+    background: #34495E;
+}
+
+.ui-car-container {
+    display: none;
+}
+
+/* Carhud Styling */
+
+.fuel {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    border: 0px solid rgba(77, 77, 77, 0.75);
+    bottom: 0vh;
+    left: 16vw;
+    width: 1.2vw;
+    height: 4vh;
+    padding: 0;
+    float:left;
+}
+
+.fuelBar {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.fuelBarIcon {
+    transition: 0.2s ease-in-out;
+    max-height: 100%;
+    position: absolute;
+    bottom: 0.1vw;
+}
+
+.fuelBar {
+    background: #E3C800;
+    opacity: 0.75;
+}
+
+.vehicle-things {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    border: 0px solid rgba(77, 77, 77, 0.75);
+    bottom: 0vw;
+    left: 17.5vw;
+    width: 4vw;
+    height: 4vh;
+    padding: 0;
+    float:left;
+}
+
+.speedometer {
+    position: relative;
+    bottom: 1.8vw;
+    left: 0.1vh;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.value {
+	font-size: 1.5vh !important;
+	padding-right: 1vh;
+	text-align: right;
+	position: relative;
+	bottom: 1.5vh;
+	color: white !important;
+	font-family: 'Share Tech Mono', monospace;
+	text-transform: uppercase;
+}
+
+.locationbar {
+	position:absolute;
+	left: 6vw;
+	bottom: 4.05vh;
+	color: white;
+	font-size: 0.9vh;
+    overflow:hidden;
+    font-family: 'Share Tech Mono', monospace;
+	text-transform: uppercase;
+}
+
+.street1 {
+	color:#F1C40F;
+	left: 1.5vw;
+	text-align:right;
+}
+
+.street2 {
+	color:white;
+	right: 84.3vw;
+	text-align:right;
+}
+
+.heading {
+	color: #0099FF;
+	position: absolute;
+	left: 8.6vw;
+    -webkit-transform: translate(-50%, 0);
+	text-align:center;
+}
+
+
+
+
+.infobar {
+	position:absolute;
+	left: 6vw;
+	bottom: 5vh;
+	color: white;
+	font-size: 0.9vh;
+    overflow:hidden;
+    font-family: 'Share Tech Mono', monospace;
+	text-transform: uppercase;
+}
+
+.time {
+	left: 1.5vw;
+	text-align:right;
+}
+
+.id {
+	right: 84.3vw;
+	text-align:right;
+}
+
+.cash {
+    position: absolute;
+	left: 8.6vw;
+    -webkit-transform: translate(-50%, 0);
+	color:#2ECC71;
+	text-align:center;
+}
+
+
+
+
+.fas {
+	font-size: 1.5vh !important;
+	padding-top: 0.6vh !important;
+	padding-left: 0.7vh !important;
+}
+
+.fa-heart {
+    color: white;
+    font-size: 1vh !important;
+    padding-top: 0.3vh !important;
+}
+
+.fa-shield-alt {
+    color: white;
+    font-size: 1vh !important;
+    padding-top: 0.3vh !important;
+}
+
+.fa-tint{
+    color: white;
+	padding-left: 1.4vh !important;
+}
+
+.fa-star-of-life{
+    color: white;
+	padding-left: 1.2vh !important;
+}
+
+.fa-pizza-slice{
+    color: white;
+	padding-left: 1.2vh !important;
+}
+
+.fa-microphone{
+    color: white;
+	padding-left: 1.5vh !important;
+}
+
+.fa-running{
+    color: white;
+	padding-left: 1.35vh !important;
+}
+
+.fa-lungs{
+	color: #aaaaaa !important;
+	padding-left: 1.05vh !important;
+}
+
+.fa-headset{
+    color: white;
+	padding-left: 1.4vh !important;
+}
+
+.fa-gas-pump{
+    color: white;
+    font-size: 1.5vh !important;
+	padding-left: 0.4vh !important;
+}
+
+.fa-eye-dropper{
+    color: #212529;
+    font-size: 1.5vh !important;
+	padding-left: 1.2vh !important;
+    padding-top: 1.4vw !important;
+}
+
+.fa-tachometer-alt{
+    color: #212529;
+    font-size: 1.5vh !important;
+	padding-left: 1vh !important;
+    padding-top: 1.4vw !important;
+}
+
+
+.blink-anim {
+    -moz-animation: blink normal 1s infinite ease-in-out;
+    -webkit-animation: blink normal 1s infinite ease-in-out;
+    animation: blink normal 1s infinite ease-in-out;
+  }
+  
+  @-moz-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
