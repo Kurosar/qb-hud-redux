@@ -4,7 +4,7 @@ Original idea based on the [QB-Hud](https://github.com/qbcore-framework/qb-hud) 
 Realized by [Jakats](https://github.com/Jakats) and [Kurøsår](https://github.com/Kurosar/).  
 Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](https://github.com/GhzGarage/cosmo_hud) for the Seatbelt and Cruise part.  
 
-**Now also comes with a "lite version"** (This is the same hud as normal, but with more "inline" design)
+**Now also comes with a "lite version"** (This is the same hud as normal, but with a more "horizontal" design)
 ![image](https://i.imgur.com/f5wIne5.png)
 
 
@@ -44,7 +44,7 @@ https://streamable.com/2g0o67
 **Answer:** We decided to not include nitrous for now, maybe at a later point (or if someone wants to make a PR).  
 
 **Question:** Should I use the normal or the lite version ?  
-**Answer:** Due to popular request, we decided to make two versions, a normal, and a lite version (more inline for those who prefer this style).  
+**Answer:** Due to popular request, we decided to make two versions, a normal, and a lite version (more horizontal for those who prefer this style).  
 Definitely use the one that you prefer ;)  
 
 **Question:** My voice indicator does not indicate the voice range properly, how to fix it ?  
