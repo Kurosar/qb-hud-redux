@@ -2,7 +2,7 @@
 # QB-HUD-Redux v2.1
 Original idea based on the [QB-Hud](https://github.com/qbcore-framework/qb-hud) for the QB Framework.  
 Realized by [Jakats](https://github.com/Jakats) and [Kurøsår](https://github.com/Kurosar/).  
-Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](https://github.com/GhzGarage/cosmo_hud) for the Seatbelt and Cruise part.  
+Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](https://github.com/GhzGarage/cosmo_hud) and [Nojdh](https://github.com/nojdh/cosmo_hud) for the Seatbelt and Cruise part.  
 
 **Now also comes with a "lite version"** (This is the same hud as normal, but with a more "horizontal" design)
 ![image](https://i.imgur.com/f5wIne5.png)
