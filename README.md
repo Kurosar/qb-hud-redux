@@ -11,7 +11,7 @@ Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](http
 ## Installation
 **Prerequisite :** [qb-core](https://github.com/qbcore-framework/qb-core)
 
-Clone or download the repo, extract it and move the ***qb-hud-redux*** folder inside your **resources/** folder.  
+Clone or download the repo, extract it and move the ***qb-hud-redux*** OR ***qb-hud-redux-lite*** (not both!) folder inside your **resources/** folder.  
 Make sure to add  the following line to your **server.cfg** (lines 14 > 20)  
 > ensure qb-hud-redux  
 or  
