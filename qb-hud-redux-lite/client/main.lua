@@ -8,7 +8,7 @@ local thirst = 100
 local oxygen = 100
 local stamina = 100
 local cashAmount = 0
-local isLoggedIn = false
+local isLoggedIn = false -- Set to true to debug
 local Player = nil
 
 local fasttick = 300

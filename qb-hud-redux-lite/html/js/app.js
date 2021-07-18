@@ -212,13 +212,13 @@ var fuelblink = 20;
                     break;
                 case "voice_level":
                     switch (event.data.voicelevel) {
-                        case 1.0:
+                        case 3.0:
                             voiceLevel = 33;
                             break;
-                        case 2.3:
+                        case 7.0:
                             voiceLevel = 66;
                             break;
-                        case 5.0:
+                        case 15.0:
                             voiceLevel = 100;
                             break;
                         default:

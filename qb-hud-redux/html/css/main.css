@@ -184,7 +184,7 @@ p {
 }
 
 .value {
-	font-size: 1.5vh !important;
+	font-size: 1vh !important;
 	padding-right: 1vh;
 	text-align: right;
 	position: relative;
@@ -269,13 +269,13 @@ p {
 .fa-heart {
     color: white;
     font-size: 1vh !important;
-    padding-top: 0.3vh !important;
+    padding-top: 0.35vh !important;
 }
 
 .fa-shield-alt {
     color: white;
     font-size: 1vh !important;
-    padding-top: 0.3vh !important;
+    padding-top: 0.35vh !important;
 }
 
 .fa-tint{
