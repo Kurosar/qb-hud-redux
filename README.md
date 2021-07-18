@@ -33,6 +33,7 @@ https://streamable.com/9vrbwl
 ## Commands  
 **G** to use the seatbelt.  
 **Y** to use the cruise.  
+Those keys can then be changed by the players in their options menu.
 
 ## FAQ
 **Question:** My hud is not working  
