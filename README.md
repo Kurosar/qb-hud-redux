@@ -30,6 +30,10 @@ or
 Blinking alerts (Example with the lite version) :  
 https://streamable.com/9vrbwl
 
+## Commands  
+**G** to use the seatbelt.  
+**Y** to use the cruise.  
+
 ## FAQ
 **Question:** My hud is not working  
 **Answer:** Make sure you change the line **72** of **main.lua** to reflect the name of the radio script you use (By default "rp-radio"), for example, if you use qb-radio, juste replace by "qb-radio".  
