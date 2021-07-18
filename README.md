@@ -5,7 +5,7 @@ Realized by [Jakats](https://github.com/Jakats) and [Kurøsår](https://github.c
 Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](https://github.com/GhzGarage/cosmo_hud) for the Seatbelt and Cruise part.  
 
 Now also available as a "lite version"  
-![image](https://user-images.githubusercontent.com/4887819/126052425-57aabbe1-c0aa-4dd3-910f-fd9cf1df2d9a.png)
+![image](https://i.imgur.com/f5wIne5.png)
 
 
 ## Installation
