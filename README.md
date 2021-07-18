@@ -4,7 +4,7 @@ Original idea based on the [QB-Hud](https://github.com/qbcore-framework/qb-hud) 
 Realized by [Jakats](https://github.com/Jakats) and [Kurøsår](https://github.com/Kurosar/).  
 Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](https://github.com/GhzGarage/cosmo_hud) for the Seatbelt and Cruise part.  
 
-**Now also available as a "lite version"**
+**Now also comes with a "lite version"**
 ![image](https://i.imgur.com/f5wIne5.png)
 
 
