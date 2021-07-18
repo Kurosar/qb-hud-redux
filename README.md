@@ -13,9 +13,9 @@ Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](http
 
 Clone or download the repo, extract it and move the ***qb-hud-redux*** folder inside your **resources/** folder.
 Make sure to add  the following line to your **server.cfg** (lines 14 > 20)
-> Ensure qb-hud-redux  
+> ensure qb-hud-redux  
 or  
-> Ensure qb-hud-redux-lite  
+> ensure qb-hud-redux-lite  
 
 ## Features
 • Health, Armor, Bleeding, Lungs, Stamina, Voice (Activity+Distance, compatible with PMA-Voice and rp-radio/qb-radio)  
