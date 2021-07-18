@@ -57,6 +57,16 @@ var fuelblink = 20;
         }
     };
 
+    QBHud.ExtraHud = function(data) {
+        if (data.extra) {
+            $(".locationbar").show();
+            $(".infobar").show();
+        } else {
+            $(".locationbar").hide();
+            $(".infobar").hide();
+        }
+    };
+
     QBHud.UpdateHudSlow = function(data) {
         $(".ui-container").css("display", data.show ? "none" : "block");
 
@@ -190,6 +200,9 @@ var fuelblink = 20;
                     break;
                 case "car":
                     QBHud.CarHud(event.data);
+                    break;
+                case "extras":
+                    QBHud.ExtraHud(event.data);
                     break;
                 case "seatbelt":
                     QBHud.ToggleSeatbelt(event.data);

@@ -1,7 +1,7 @@
 QBHud = {}
 
-QBHud.Show = false
 QBHud.MPH = false
+QBHud.ExtraInfo = false
 
 QBHud.Money = {}
 QBHud.Money.ShowConstant = false -- Show money constantly

@@ -10,6 +10,7 @@ local stamina = 100
 local cashAmount = 0
 local isLoggedIn = false -- Set to true to debug
 local Player = nil
+local extraInfo = QBHud.ExtraInfo
 
 local fasttick = 300
 local slowtick = 1000
@@ -143,6 +144,14 @@ Citizen.CreateThread(function()
             Citizen.Wait(500)
         end
     end
+end)
+
+Citizen.CreateThread(function()
+    Citizen.Wait(1000)
+    SendNUIMessage({
+        action = "extras",
+        extra = extraInfo,
+    })
 end)
 
 Citizen.CreateThread(function() 

@@ -57,6 +57,16 @@ var fuelblink = 20;
         }
     };
 
+    QBHud.ExtraHud = function(data) {
+        if (data.extra) {
+            $(".locationbar").show();
+            $(".infobar").show();
+        } else {
+            $(".locationbar").hide();
+            $(".infobar").hide();
+        }
+    };
+
     QBHud.UpdateHudSlow = function(data) {
         $(".ui-container").css("display", data.show ? "none" : "block");
 
@@ -191,6 +201,9 @@ var fuelblink = 20;
                 case "car":
                     QBHud.CarHud(event.data);
                     break;
+                case "extras":
+                    QBHud.ExtraHud(event.data);
+                    break;
                 case "seatbelt":
                     QBHud.ToggleSeatbelt(event.data);
                     break;
@@ -212,7 +225,7 @@ var fuelblink = 20;
                     break;
                 case "voice_level":
                     switch (event.data.voicelevel) {
-                        case 310:
+                        case 1.0:
                             voiceLevel = 33;
                             break;
                         case 2.3:

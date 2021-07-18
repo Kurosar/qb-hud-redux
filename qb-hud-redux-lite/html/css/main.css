@@ -203,6 +203,7 @@ p {
     overflow:hidden;
     font-family: 'Share Tech Mono', monospace;
 	text-transform: uppercase;
+    display: none;
 }
 
 .street1 {
@@ -237,6 +238,7 @@ p {
     overflow:hidden;
     font-family: 'Share Tech Mono', monospace;
 	text-transform: uppercase;
+    display: none;
 }
 
 .time {
