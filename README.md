@@ -24,13 +24,6 @@ Make sure to add  the following line to your **server.cfg** (lines 14 > 20)
 • Fully ready for the QB-Core Framework  
 
 ## Media
-Main HUD (on foot) :  
-![image](https://user-images.githubusercontent.com/4887819/126051327-dc5b3802-6801-4c5b-b401-42ba4781b601.png)
-
-
-Vehicle HUD (in a car) :  
-![image](https://user-images.githubusercontent.com/4887819/126051341-10b71bb0-3b49-43d8-baa3-b9a420640040.png)
-
 Blinking alerts :  
 https://streamable.com/2g0o67
 
