@@ -43,6 +43,9 @@ https://streamable.com/2g0o67
 **Question:** Are you going to add Nitrous ?  
 **Answer:** We decided to not include nitrous for now, maybe at a later point (or if someone wants to make a PR).  
 
+**Question:** Should I use the normal or the lite version ?  
+**Answer:** Due to popular request, we decided to make two versions, a normal, and a lite version (more inline for those who prefer this style).  
+
 **Question:** My voice indicator does not indicate the voice range properly, how to fix it ?  
 **Answer:** You probably changed your default PMA-Voice ranges, please reflect those changes in **html/js/app.js** (lines 215 > 225)  
 
