@@ -26,8 +26,8 @@ or
 • Fully ready for the QB-Core Framework  
 
 ## Media
-Blinking alerts :  
-https://streamable.com/2g0o67
+Blinking alerts (Example with the lite version) :  
+https://streamable.com/9vrbwl
 
 ## FAQ
 **Question:** My hud is not working  
