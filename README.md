@@ -1,5 +1,5 @@
 ![image](https://i.imgur.com/tdTjVME.png)
-# QB-HUD-Redux
+# QB-HUD-Redux v2.1
 Original idea based on the [QB-Hud](https://github.com/qbcore-framework/qb-hud) for the QB Framework.  
 Realized by [Jakats](https://github.com/Jakats) and [Kurøsår](https://github.com/Kurosar/).  
 Thanks to [GhzGarage(Kakarot)](https://github.com/GhzGarage/) / [Cosmo_Hud](https://github.com/GhzGarage/cosmo_hud) for the Seatbelt and Cruise part.  
