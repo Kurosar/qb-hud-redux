@@ -52,8 +52,12 @@ var fuelblink = 20;
     QBHud.CarHud = function(data) {
         if (data.show) {
             $(".ui-car-container").fadeIn();
+            $(".locationbar").css("bottom", "20.05vh");
+            $(".infobar").css("bottom", "21vh");
         } else {
             $(".ui-car-container").fadeOut();
+            $(".locationbar").css("bottom", "4.05vh");
+            $(".infobar").css("bottom", "5vh");
         }
     };
 
@@ -68,7 +72,13 @@ var fuelblink = 20;
     };
 
     QBHud.UpdateHudSlow = function(data) {
-        $(".ui-container").css("display", data.show ? "none" : "block");
+        if (ShowUI == false) {
+            $(".ui-container").hide();
+            $(".ui-carcontainer").hide();
+        } else if (ShowUI == true) {
+            $(".ui-container").show();
+            $(".ui-carcontainer").show();
+        }
 
         if (data.street2 != "" && data.street2 != undefined) {
             document.getElementById("street1").innerHTML = data.street1;
@@ -102,7 +112,13 @@ var fuelblink = 20;
     };
 
     QBHud.UpdateHudFast = function(data) {
-        $(".ui-container").css("display", data.show ? "none" : "block");
+        if (ShowUI == false) {
+            $(".ui-container").hide();
+            $(".ui-carcontainer").hide();
+        } else if (ShowUI == true) {
+            $(".ui-container").show();
+            $(".ui-carcontainer").show();
+        }
 
         document.getElementById("heading").innerHTML = data.direction;
 
