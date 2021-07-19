@@ -68,7 +68,13 @@ var fuelblink = 20;
     };
 
     QBHud.UpdateHudSlow = function(data) {
-        $(".ui-container").css("display", data.show ? "none" : "block");
+        if (ShowUI == false) {
+            $(".ui-container").hide();
+            $(".ui-carcontainer").hide();
+        } else if (ShowUI == true) {
+            $(".ui-container").show();
+            $(".ui-carcontainer").show();
+        }
 
         if (data.street2 != "" && data.street2 != undefined) {
             document.getElementById("street1").innerHTML = data.street1;
@@ -102,7 +108,13 @@ var fuelblink = 20;
     };
 
     QBHud.UpdateHudFast = function(data) {
-        $(".ui-container").css("display", data.show ? "none" : "block");
+        if (ShowUI == false) {
+            $(".ui-container").hide();
+            $(".ui-carcontainer").hide();
+        } else if (ShowUI == true) {
+            $(".ui-container").show();
+            $(".ui-carcontainer").show();
+        }
 
         document.getElementById("heading").innerHTML = data.direction;
 

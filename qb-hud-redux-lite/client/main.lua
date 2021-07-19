@@ -11,6 +11,7 @@ local cashAmount = 0
 local isLoggedIn = false -- Set to true to debug
 local Player = nil
 local extraInfo = QBHud.ExtraInfo
+local showHud = false
 
 local fasttick = 300
 local slowtick = 1000
@@ -31,13 +32,15 @@ end)
 RegisterNetEvent("QBCore:Client:OnPlayerUnload")
 AddEventHandler("QBCore:Client:OnPlayerUnload", function()
     isLoggedIn = false
-    SendNUIMessage({action = "hudstatus", UI = false})
+    showHud = false
+    SendNUIMessage({action = "hudstatus", UI = showHud})
 end)
 
 RegisterNetEvent("QBCore:Client:OnPlayerLoaded")
 AddEventHandler("QBCore:Client:OnPlayerLoaded", function()
     isLoggedIn = true
-    SendNUIMessage({action = "hudstatus", UI = true})
+    showHud = true
+    SendNUIMessage({action = "hudstatus", UI = showHud})
 end)
 
 
@@ -231,6 +234,26 @@ RegisterCommand('togglecruise', function(source, args, rawCommand)
             Player = PlayerPedId()
             TriggerCruiseControl()
         end
+    end
+end, false)
+
+RegisterCommand('togglehud', function(source, args, rawCommand)
+    if showHud then
+        showHud = false
+        SendNUIMessage({action = "hudstatus", UI = showHud})
+    else
+        showHud = true
+        SendNUIMessage({action = "hudstatus", UI = showHud})
+    end
+end, false)
+
+RegisterCommand('togglehudextra', function(source, args, rawCommand)
+    if extraInfo then
+        extraInfo = false
+        SendNUIMessage({action = "extras", extra = extraInfo})
+    else
+        extraInfo = true
+        SendNUIMessage({action = "extras", extra = extraInfo})
     end
 end, false)
 
