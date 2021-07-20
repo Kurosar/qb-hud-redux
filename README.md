@@ -62,6 +62,7 @@ Definitely use the one that you prefer ;)
 
 **Question:** The cruise feature is not working as intended, how to fix it ?  
 **Answer:** If you are using **qb-smallresources** you have to edit **qb-smallresources/fxmanifest.lua** and comment the 'client/cruise.lua' line.  
+You can also do the same for seatbelt.lua (comment it out) to avoid conflicts with qb-smallresources seatbelt and the hud seatbelt.  
 ![image](https://user-images.githubusercontent.com/4887819/126051690-67598943-7a55-4108-bb23-117dea32876c.png)
 
 
