@@ -74,7 +74,7 @@ Citizen.CreateThread(function()
             local time = CalculateTimeToDisplay()
             local street1, street2 = GetStreetNameAtCoord(pos.x, pos.y, pos.z, Citizen.ResultAsInteger(), Citizen.ResultAsInteger())
             local fuel = exports['LegacyFuel']:GetFuel(GetVehiclePedIsIn(PlayerPedId()))
-            local radioStatus = exports["rp-radio"]:IsRadioOn()
+            local radioStatus = exports["qb-radio"]:IsRadioOn()
 
             SendNUIMessage({
                 action = "radio_status",
