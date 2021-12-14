@@ -1,3 +1,4 @@
+local QBCore = exports['qb-core']:GetCoreObject()
 local speed = "0 mp/h"
 local seatbeltOn = false
 local cruiseOn = false
