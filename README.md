@@ -1,3 +1,5 @@
+**PLEASE NOTE : The developpement has ceased on this project for now, you can still use it but things will not be updated anymore.**
+
 ![image](https://i.imgur.com/tdTjVME.png)
 # QB-HUD-Redux v2.1
 Original idea based on the [QB-Hud](https://github.com/qbcore-framework/qb-hud) for the QB Framework.  
